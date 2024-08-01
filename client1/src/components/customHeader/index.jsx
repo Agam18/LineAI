@@ -12,6 +12,7 @@ const CustomerHeader = ({ chat }) => {
         <PhoneIcon className="icon-phone" />
         {chat.description !== "⬅️ ⬅️ ⬅️" ? (
           <p className="header-text">{chat.description}</p>
+      
         ) : (
           <p className="header-text">no chat selected</p>
         )}

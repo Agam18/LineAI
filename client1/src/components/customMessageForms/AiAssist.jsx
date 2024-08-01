@@ -22,6 +22,7 @@ const AiAssist = ( { props,activeChat } ) => {
   const [message, setMessage] = useState("");
     const [attachment, setAttachment] = useState("");
     const [triggerAssist, resultAssist] = usePostAiAssistMutation();
+    
     const [appendText, setAppendText] = useState("");
     
 

@@ -32,6 +32,7 @@ const Login = ({ setUser, setSecret }) => {
           onClick={() => setIsRegister(!isRegister)}
         >
           {isRegister ? "Already a user?" : "Are you a new user?"}
+          
         </p>
 
         <div>
